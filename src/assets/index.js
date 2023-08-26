@@ -20,15 +20,37 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import finance from "./tech/finance.png";
+import blockchain from "./tech/blockchain.png";
+import ethereum from "./tech/ethereum.png";
+import polygon from "./tech/polygon.png";
+import solidity from "./tech/solidity.png";
+import web3 from "./tech/web3.png";
+import contract from "./tech/contract.png";
+import ai from "./tech/ai.png";
+import chatbot from "./tech/chatbot.png";
+import tensorflow from "./tech/tensorflow.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import edgenext from "./company/edgenext.jpg";
+import tma from "./company/tma.png";
+import venustech from "./company/venustech.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import dlop from "./dlop.png";
+import chatgpt from "./chatgpt.png";
+import fox from "./fox.png";
+import krypt from "./krypt.png";
+import saint from "./saint.png";
+import socialpath from "./socialpath.png";
+
 
 export {
   logo,
@@ -52,6 +74,16 @@ export {
   tailwind,
   typescript,
   threejs,
+  blockchain,
+  ethereum,
+  finance,
+  contract,
+  polygon,
+  solidity,
+  web3,
+  ai,
+  chatbot,
+  tensorflow,
   meta,
   shopify,
   starbucks,
@@ -59,4 +91,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  dlop,
+  chatgpt,
+  fox,
+  krypt,
+  saint,
+  socialpath,
+  tma,
+  edgenext,
+  venustech
 };

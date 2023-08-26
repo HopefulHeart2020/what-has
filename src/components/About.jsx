@@ -38,10 +38,11 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa ad aut
-        nobis veniam dolorum aliquid mollitia nesciunt voluptatem atque earum
-        cumque tempore veritatis exercitationem facilis in consectetur neque,
-        iure natus!
+        I'm a skilled Full Stack and Blockchain Developer with an added role of a Technical Leader. 
+        My expertise lies in creating end-to-end applications, establishing innovative blockchain technologies, 
+        and leading tech teams to success. Known for my problem-solving skills, 
+        I constantly keep pace with technology trends. 
+        In essence, I combine creativity, strategy, and technical knowledge in all my ventures.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services?.map((service, index) => (
