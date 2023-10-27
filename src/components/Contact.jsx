@@ -81,45 +81,51 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+            <span className="text-white font-medium mb-4">Email Address</span>
             <input
               type="text"
               name="name"
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your good name?"
+              value="joycelin1124@gmail.com"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your email</span>
+            <span className="text-white font-medium mb-4">Linkedin</span>
             <input
               type="email"
               name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your web address?"
+              value="https://www.linkedin.com/in/joyce-lin-577677290"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+            />
+          </label>
+          {/* <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Github</span>
+            <input
+              type="email"
+              name="email"
+              value="https://github.com/HopefulHeart2020/"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+            />
+          </label> */}
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Skype</span>
+            <input
+              type="email"
+              name="email"
+              value="live:.cid.6a6f151a6282a514"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
-            <textarea
-              rows={7}
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="What you want to say?"
+            <span className="text-white font-medium mb-4">Telegram</span>
+            <input
+              type="email"
+              name="email"
+              value="@HopefulHeart2020"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
 
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-          >
-            {loading ? 'Sending...' : 'Send'}
-          </button>
         </form>
       </motion.div>
 
